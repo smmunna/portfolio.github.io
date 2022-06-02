@@ -3,7 +3,252 @@ body{
     font-family: 'Tiro Tamil', serif;
 }
 
+.navbar{
+    border-bottom: 3px solid blue;
+    
+}
 .navbar-nav{
     margin-left: auto;
     margin-right: 20px;
+}
+#sec2{
+    height: 770px;
+    background-color: #F9F9FF;
+}
+.txt1{
+    padding-top: 300px;
+    padding-left: 60px;
+    line-height: 50px;
+}
+.hey{
+    color: #90ACD3; letter-spacing:10px;font-size: 30px;
+}
+.txt2{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+/* Text typing style */
+
+.typing-demo {
+    font-size: 1.5em;
+  }
+.img1{
+    border-radius: 30%;
+    height: 400px;
+    width: 400px;
+    margin-top: 100px;
+}
+.btn1{
+    background-color: #90ACD3;
+    color: white;
+    width: 150px;
+    padding: 15px;
+    border-radius: 40px;
+    margin-top: 10px;
+}
+.btn1:hover{
+    background-color: rgb(154, 61, 61);
+    transition: 0.5s;
+}
+/* Section 3 */
+#sec3{
+    height: 770px;
+    background-color: gainsboro;
+}
+.about{
+    font-size: 40px;
+    font-weight: 400;
+    padding-top: 80px;
+    border-bottom: 3px solid rebeccapurple;
+}
+.img2{
+    background-color: antiquewhite;
+    height: 350px;
+    width: 320px;
+    border-radius: 50px;
+    margin-top: 220px;
+    padding: 20px;
+    border-bottom: 5px solid green;
+}
+.img2:hover{
+    background-color: whitesmoke;
+}
+
+.txt3{
+    margin-top: 50px;
+    color: rgb(139, 113, 113);
+    padding-top: 30px;
+    text-align: justify;
+    font-size: 22px;
+}
+.txt4{
+    color:rgb(139, 113, 113);
+    margin-top: 40px;
+    font-size: 20px;
+
+}
+.txt41{
+    color: black;
+    font-weight: bold;
+}
+
+
+/* For Responsive */
+/* ================================= */
+ /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) { 
+    #sec2{
+        height: 700px;
+    }
+    .img1{
+        margin-top: 240px;
+      
+    }
+ }
+
+ /* `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+    .txt1{
+        padding-top: 160px;
+    }
+
+    /* sec 3 */
+
+    
+}
+
+
+/* `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    #sec2{
+        height: 800px;
+    }
+    .txt1{
+        padding-top: 100px;
+    }
+    .img1{
+        margin-top: 40px;
+        margin-left: 50px;
+    }
+     /* Section 3 */
+     #sec3{
+        height: 700px;
+    }
+    .img2{
+       
+        height: 250px;
+        width: 230px;
+        margin-top: 20px;
+        padding: 20px;
+        margin-left: 220px;   
+        }
+
+        .about{
+            font-size: 25px;
+            padding-top: 20px;
+        }
+        .txt3{
+           margin-top: 0;
+           font-size: 15px;
+        }
+        .txt4{
+            font-size: 15px;
+        }
+}
+
+/* `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    #sec2{
+        height: 700px;
+    }
+    .txt1{
+        padding-top: 100px;
+    }
+    .hey{
+        font-size: 20px;
+    }
+    .txt2{
+        font-size: 25px;
+    }
+    .img1{
+        margin-top: 40px;
+        height: 250px;
+        width: 250px;
+        margin-left: 50px;
+    }
+     /* Section 3 */
+     #sec3{
+        height: 700px;
+    }
+    .img2{
+       
+        height: 250px;
+        width: 230px;
+        margin-top: 20px;
+        padding: 20px;
+        margin-left: 150px;   
+        }
+
+        .about{
+            font-size: 25px;
+            padding-top: 20px;
+        }
+        .txt3{
+           margin-top: 0;
+           font-size: 15px;
+        }
+        .txt4{
+            font-size: 15px;
+        }
+}
+
+ /* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+        #sec2{
+            height: 700px;
+        }
+        .txt1{
+            padding-top: 100px;
+        }
+        .hey{
+            font-size: 20px;
+        }
+        .txt2{
+            font-size: 25px;
+        }
+        .img1{
+            margin-top: 40px;
+            height: 250px;
+            width: 250px;
+            margin-left: 50px;
+        }
+        .typing-demo{
+            font-size: 15px;
+        }
+
+        /* Section 3 */
+        #sec3{
+            height: 700px;
+        }
+        .img2{
+           
+            height: 250px;
+            width: 230px;
+            margin-top: 20px;
+            padding: 20px;
+            margin-left: 75px;   
+            }
+
+            .about{
+                font-size: 25px;
+                padding-top: 20px;
+            }
+            .txt3{
+               margin-top: 0;
+               font-size: 15px;
+            }
+            .txt4{
+                font-size: 15px;
+            }
 }
