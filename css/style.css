@@ -2,3 +2,8 @@
 body{
     font-family: 'Tiro Tamil', serif;
 }
+
+.navbar-nav{
+    margin-left: auto;
+    margin-right: 20px;
+}
