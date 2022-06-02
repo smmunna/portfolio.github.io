@@ -93,6 +93,48 @@ body{
     font-weight: bold;
 }
 
+/* Section 4 */
+#sec4{
+    height: 1770px;
+    background-color: #F9F9FF;
+}
+.list-item{
+    list-style: none;
+}
+.list-item li{
+  padding: 15px;
+  font-weight: bolder;
+}
+.list-item li a{
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+}
+.list-item li a:hover{
+    background-color: aqua;
+}
+.card{
+    background-color: aliceblue;
+    outline: none;
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+#education{
+    padding: 50px;
+}
+#skill .card{
+    background-color:#F9F9FF ;
+}
+#resume{
+    font-size: 40px;
+    margin-top: 50px;
+}
+#skill{
+    padding: 50px;
+    height: 770px;
+}
+
 
 /* For Responsive */
 /* ================================= */
@@ -201,6 +243,17 @@ body{
         .txt4{
             font-size: 15px;
         }
+        /* section4 */
+        #sec4{
+            height: 1900px;
+        }
+        #resume{
+            margin: 0;
+            padding: 20px;
+        }
+        #education{
+            padding: 0;
+        }
 }
 
  /* `sm` applies to x-small devices (portrait phones, less than 576px) */
@@ -250,5 +303,23 @@ body{
             }
             .txt4{
                 font-size: 15px;
+            }
+
+            /* Section 4 */
+            #sec4{
+                height: 2000px;
+            }
+            #education{
+                padding: 0;
+            }
+            #resume{
+                margin: 0;
+                padding: 15px;
+            }
+            #skill{
+                padding-top: 20px;
+            }
+            .card{
+                text-align: left;
             }
 }
