@@ -1,400 +1,423 @@
-@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Bebas+Neue&family=Manrope:wght@400;800&family=Montserrat:wght@700&family=Noto+Sans:wght@800&family=Roboto:wght@100;900&family=Tiro+Tamil&display=swap');
-body{
-    font-family: 'Tiro Tamil', serif;
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Bebas+Neue&family=Manrope:wght@400;800&family=Montserrat:wght@700&family=Noto+Sans:wght@800&family=Roboto:wght@100;900&family=Tiro+Tamil&display=swap");
+body {
+  font-family: "Tiro Tamil", serif;
 }
 
-.navbar{
-    border-bottom: 3px solid blue;
-    
+.navbar {
+  border-bottom: 3px solid blue;
 }
-.navbar-nav{
-    margin-left: auto;
-    margin-right: 20px;
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 20px;
 }
-#sec2{
-    height: 770px;
-    background-color: #F9F9FF;
+#sec2 {
+  height: 770px;
+  background-color: #f9f9ff;
 }
-.txt1{
-    padding-top: 300px;
-    padding-left: 60px;
-    line-height: 50px;
+.txt1 {
+  padding-top: 300px;
+  padding-left: 60px;
+  line-height: 50px;
 }
-.hey{
-    color: #90ACD3; letter-spacing:10px;font-size: 30px;
+.hey {
+  color: #90acd3;
+  letter-spacing: 10px;
+  font-size: 30px;
 }
-.txt2{
-    font-size: 50px;
-    font-weight: 600;
+.txt2 {
+  font-size: 50px;
+  font-weight: 600;
 }
 
 /* Text typing style */
 
 .typing-demo {
-    font-size: 1.5em;
-  }
-.img1{
-    border-radius: 30%;
-    height: 400px;
-    width: 400px;
-    margin-top: 100px;
+  font-size: 1.5em;
 }
-.btn1{
-    background-color: #90ACD3;
-    color: white;
-    width: 150px;
-    padding: 15px;
-    border-radius: 40px;
-    margin-top: 10px;
+.img1 {
+  border-radius: 30%;
+  height: 400px;
+  width: 400px;
+  margin-top: 100px;
 }
-.btn1:hover{
-    background-color: rgb(154, 61, 61);
-    transition: 0.5s;
+.btn1 {
+  background-color: #90acd3;
+  color: white;
+  width: 150px;
+  padding: 15px;
+  border-radius: 40px;
+  margin-top: 10px;
+}
+.btn1:hover {
+  background-color: rgb(154, 61, 61);
+  transition: 0.5s;
 }
 /* Section 3 */
-#sec3{
-    height: 770px;
-    background-color: gainsboro;
+#sec3 {
+  height: 770px;
+  background-color: rgb(255, 254, 254);
 }
-.about{
-    font-size: 40px;
-    font-weight: 400;
-    padding-top: 80px;
-    border-bottom: 3px solid rebeccapurple;
+.about {
+  font-size: 40px;
+  font-weight: 400;
+  padding-top: 80px;
+  border-bottom: 3px solid rebeccapurple;
 }
-.img2{
-    background-color: antiquewhite;
-    height: 350px;
-    width: 320px;
-    border-radius: 50px;
-    margin-top: 220px;
-    padding: 20px;
-    border-bottom: 5px solid green;
+.img2 {
+  background-color: antiquewhite;
+  height: 350px;
+  width: 320px;
+  border-radius: 50px;
+  margin-top: 220px;
+  padding: 20px;
+  border-bottom: 5px solid green;
 }
-.img2:hover{
-    background-color: whitesmoke;
+.img2:hover {
+  background-color: whitesmoke;
 }
 
-.txt3{
-    margin-top: 50px;
-    color: rgb(139, 113, 113);
-    padding-top: 30px;
-    text-align: justify;
-    font-size: 22px;
+.txt3 {
+  margin-top: 50px;
+  color: rgb(139, 113, 113);
+  padding-top: 30px;
+  text-align: justify;
+  font-size: 22px;
 }
-.txt4{
-    color:rgb(139, 113, 113);
-    margin-top: 40px;
-    font-size: 20px;
-
+.txt4 {
+  color: rgb(139, 113, 113);
+  margin-top: 40px;
+  font-size: 20px;
 }
-.txt41{
-    color: black;
-    font-weight: bold;
+.txt41 {
+  color: black;
+  font-weight: bold;
 }
 
 /* Section 4 */
-#sec4{
-    height: 1770px;
-    background-color: #F9F9FF;
+#sec4 {
+  height: 1770px;
+  background-color: #f9f9ff;
 }
-.list-item{
-    list-style: none;
+.list-item {
+  list-style: none;
 }
-.list-item li{
+.list-item li {
   padding: 15px;
   font-weight: bolder;
 }
-.list-item li a{
-    color: black;
-    text-decoration: none;
-    padding: 15px;
+.list-item li a {
+  color: black;
+  text-decoration: none;
+  padding: 15px;
 }
-.list-item li a:hover{
-    background-color: aqua;
+.list-item li a:hover {
+  background-color: aqua;
 }
-.card{
-    background-color: aliceblue;
-    outline: none;
-    margin-top: 20px;
-    font-size: 20px;
-
+.card {
+  background-color: aliceblue;
+  outline: none;
+  margin-top: 20px;
+  font-size: 20px;
 }
-#education{
-    padding: 50px;
+#education {
+  padding: 50px;
 }
-#skill .card{
-    background-color:#F9F9FF ;
+#skill .card {
+  background-color: #f9f9ff;
 }
-#resume{
-    font-size: 40px;
-    margin-top: 50px;
+#resume {
+  font-size: 40px;
+  margin-top: 80px;
+  padding-bottom: 30px;
 }
-#skill{
-    padding: 50px;
-    height: 770px;
+#skill {
+  padding: 50px;
+  height: 770px;
 }
 /* Section 5 */
-#sec5{
-    height: 400px;
-    background-color: #90ACD3;
+#sec5 {
+  height: 400px;
+  background-color: #90acd3;
 }
-.cl1{
-    display: flex;
-    justify-content: center;
-    padding: 12px;
-    margin-top: 20px;
-    font-size: 60px;
-    font-weight: 800;
+.cl1 {
+  display: flex;
+  justify-content: center;
+  padding: 12px;
+  margin-top: 60px;
+  font-size: 60px;
+  font-weight: 800;
 }
-.txt5{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-size: 22px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    padding: 24px;
-    
+.txt5 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 22px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  padding: 24px;
 }
-.txt6{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-size: 30px;
-    padding: 20px;
-    font-weight: bold;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.txt6 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+  padding: 20px;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-
+/* Sec 6 started */
+#sec6 {
+  height: 500px;
+  background-color: rgb(239, 237, 235);
+}
+.footer,
+.foot {
+  display: flex;
+  justify-content: center;
+}
+.social {
+  display: flex;
+  justify-content: center;
+}
+.txt7 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #727276;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+.sicon {
+  color: black;
+  padding: 15px;
+  font-size: 50px;
+}
+.txt8 {
+  font-size: 16px;
+  color: #727276;
+  padding-top: 30px;
+}
 /* For Responsive */
 /* ================================= */
- /* `xxl` applies to x-large devices (large desktops, less than 1400px) */
-@media (max-width: 1399.98px) { 
-    #sec2{
-        height: 700px;
-    }
-    .img1{
-        margin-top: 240px;
-      
-    }
- }
-
- /* `xl` applies to large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) { 
-    .txt1{
-        padding-top: 160px;
-    }
-
-    /* sec 5 */
-    .txt6{
-        font-size: 20px;
-    }
-    
+/* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+  #sec2 {
+    height: 700px;
+  }
+  .img1 {
+    margin-top: 240px;
+  }
 }
 
+/* `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+  .txt1 {
+    padding-top: 160px;
+  }
+
+  /* sec 5 */
+  .txt6 {
+    font-size: 20px;
+  }
+}
 
 /* `lg` applies to medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) { 
-    #sec2{
-        height: 800px;
-    }
-    .txt1{
-        padding-top: 100px;
-    }
-    .img1{
-        margin-top: 40px;
-        margin-left: 50px;
-    }
-     /* Section 3 */
-     #sec3{
-        height: 700px;
-    }
-    .img2{
-       
-        height: 250px;
-        width: 230px;
-        margin-top: 20px;
-        padding: 20px;
-        margin-left: 220px;   
-        }
+@media (max-width: 991.98px) {
+  #sec2 {
+    height: 800px;
+  }
+  .txt1 {
+    padding-top: 100px;
+  }
+  .img1 {
+    margin-top: 40px;
+    margin-left: 50px;
+  }
+  /* Section 3 */
+  #sec3 {
+    height: 700px;
+  }
+  .img2 {
+    height: 250px;
+    width: 230px;
+    margin-top: 90px;
+    padding: 20px;
+    margin-left: 220px;
+  }
 
-        .about{
-            font-size: 25px;
-            padding-top: 20px;
-        }
-        .txt3{
-           margin-top: 0;
-           font-size: 15px;
-        }
-        .txt4{
-            font-size: 15px;
-        }
-        /* Section 4 */
-        #sec4{
-            height: 1900px;
-        }
-        /* section 5 */
-        #sec5{
-            height: 600px;
-        }
+  .about {
+    font-size: 25px;
+    padding-top: 20px;
+  }
+  .txt3 {
+    margin-top: 0;
+    font-size: 15px;
+  }
+  .txt4 {
+    font-size: 15px;
+  }
+  /* Section 4 */
+  #sec4 {
+    height: 2000px;
+  }
+  /* section 5 */
+  #sec5 {
+    height: 600px;
+  }
 }
 
 /* `md` applies to small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) { 
-    #sec2{
-        height: 700px;
-    }
-    .txt1{
-        padding-top: 100px;
-    }
-    .hey{
-        font-size: 20px;
-    }
-    .txt2{
-        font-size: 25px;
-    }
-    .img1{
-        margin-top: 40px;
-        height: 250px;
-        width: 250px;
-        margin-left: 50px;
-    }
-     /* Section 3 */
-     #sec3{
-        height: 700px;
-    }
-    .img2{
-       
-        height: 250px;
-        width: 230px;
-        margin-top: 20px;
-        padding: 20px;
-        margin-left: 150px;   
-        }
+@media (max-width: 767.98px) {
+  #sec2 {
+    height: 700px;
+  }
+  .txt1 {
+    padding-top: 100px;
+  }
+  .hey {
+    font-size: 20px;
+  }
+  .txt2 {
+    font-size: 25px;
+  }
+  .img1 {
+    margin-top: 40px;
+    height: 250px;
+    width: 250px;
+    margin-left: 50px;
+  }
+  /* Section 3 */
+  #sec3 {
+    height: 700px;
+  }
+  .img2 {
+    height: 250px;
+    width: 230px;
+    margin-top: 90px;
+    padding: 20px;
+    margin-left: 150px;
+  }
 
-        .about{
-            font-size: 25px;
-            padding-top: 20px;
-        }
-        .txt3{
-           margin-top: 0;
-           font-size: 15px;
-        }
-        .txt4{
-            font-size: 15px;
-        }
-        /* section4 */
-        #sec4{
-            height: 1900px;
-        }
-        #resume{
-            margin: 0;
-            padding: 20px;
-        }
-        #education{
-            padding: 0;
-        }
-         /* for Section 5 */
-         #sec5{
-            height: 400px;
-        }
-        .cl1{
-            font-size: 40px;
-            padding: 5px;
-        }
-        .txt5{
-            font-size: 18px;
-            text-align: justify;
-            padding: 10px;
-        }
-        .txt6{
-            font-size: 18px;
-            padding: 5px;
-        }
+  .about {
+    font-size: 25px;
+    padding-top: 20px;
+  }
+  .txt3 {
+    margin-top: 0;
+    font-size: 15px;
+  }
+  .txt4 {
+    font-size: 15px;
+  }
+  /* section4 */
+  #sec4 {
+    height: 1900px;
+  }
+  #resume {
+    margin: 0;
+    padding: 20px;
+  }
+  #education {
+    padding: 0;
+  }
+  /* for Section 5 */
+  #sec5 {
+    height: 400px;
+  }
+  .cl1 {
+    font-size: 40px;
+    padding: 5px;
+  }
+  .txt5 {
+    font-size: 18px;
+    text-align: justify;
+    padding: 10px;
+  }
+  .txt6 {
+    font-size: 18px;
+    padding: 5px;
+  }
 }
 
- /* `sm` applies to x-small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) { 
-        #sec2{
-            height: 700px;
-        }
-        .txt1{
-            padding-top: 100px;
-        }
-        .hey{
-            font-size: 20px;
-        }
-        .txt2{
-            font-size: 25px;
-        }
-        .img1{
-            margin-top: 40px;
-            height: 250px;
-            width: 250px;
-            margin-left: 50px;
-        }
-        .typing-demo{
-            font-size: 15px;
-        }
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  #sec2 {
+    height: 700px;
+  }
+  .txt1 {
+    padding-top: 100px;
+  }
+  .hey {
+    font-size: 20px;
+  }
+  .txt2 {
+    font-size: 25px;
+  }
+  .img1 {
+    margin-top: 40px;
+    height: 250px;
+    width: 250px;
+    margin-left: 50px;
+  }
+  .typing-demo {
+    font-size: 15px;
+  }
 
-        /* Section 3 */
-        #sec3{
-            height: 700px;
-        }
-        .img2{
-           
-            height: 250px;
-            width: 230px;
-            margin-top: 20px;
-            padding: 20px;
-            margin-left: 75px;   
-            }
+  /* Section 3 */
+  #sec3 {
+    height: 700px;
+  }
+  .img2 {
+    height: 250px;
+    width: 230px;
+    margin-top: 90px;
+    padding: 20px;
+    margin-left: 75px;
+  }
 
-            .about{
-                font-size: 25px;
-                padding-top: 20px;
-            }
-            .txt3{
-               margin-top: 0;
-               font-size: 15px;
-            }
-            .txt4{
-                font-size: 15px;
-            }
+  .about {
+    font-size: 25px;
+    padding-top: 20px;
+  }
+  .txt3 {
+    margin-top: 0;
+    font-size: 15px;
+  }
+  .txt4 {
+    font-size: 15px;
+  }
 
-            /* Section 4 */
-            #sec4{
-                height: 2000px;
-            }
-            #education{
-                padding: 0;
-            }
-            #resume{
-                margin: 0;
-                padding: 15px;
-            }
-            #skill{
-                padding-top: 20px;
-            }
-            .card{
-                text-align: left;
-            }
+  /* Section 4 */
+  #sec4 {
+    height: 2000px;
+  }
+  #education {
+    padding: 0;
+  }
+  #resume {
+    margin-top: 56px;
+    padding: 15px;
+  }
+  #skill {
+    padding-top: 20px;
+  }
+  .card {
+    text-align: left;
+  }
 
-            /* for Section 5 */
-            #sec5{
-                height: 400px;
-            }
-            .cl1{
-                font-size: 40px;
-                padding: 5px;
-            }
-            .txt5{
-                font-size: 18px;
-                text-align: justify;
-                padding: 10px;
-            }
-            .txt6{
-                font-size: 18px;
-                padding: 5px;
-            }
+  /* for Section 5 */
+  #sec5 {
+    height: 450px;
+  }
+  .cl1 {
+    font-size: 40px;
+    padding-top: 25px;
+  }
+  .txt5 {
+    font-size: 18px;
+    text-align: justify;
+    padding: 10px;
+  }
+  .txt6 {
+    font-size: 18px;
+    padding: 5px;
+  }
 }
